@@ -1,6 +1,7 @@
 # Table of contents
 
-* [退屈なことは Node.js にやらせよう](top_page.md)
-* [npm module を公開しよう](publish_npm_package/README.md)
-  * [name-scope](publish_npm_package/name-scope.md)
+* [Introduction](README.md)
+* [退屈なことは Node.js にやらせよう](nakotoha-nodejs-niyaraseyou.md)
+* [npm module を公開しよう](npm-module-woshiyou/README.md)
+  * [name-scope](npm-module-woshiyou/name-scope.md)
 

@@ -1,7 +1,3 @@
----
-description: npm module を作って registry に公開します
----
-
 # npm module を公開しよう
 
 ### npm registry のアカウントを作ろう

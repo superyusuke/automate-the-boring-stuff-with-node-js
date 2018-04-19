@@ -1,7 +1,3 @@
----
-description: name-scope を利用してパッケージ名を管理しよう
----
-
 # name-scope
 
 {% embed data="{\"url\":\"https://docs.npmjs.com/misc/scope\",\"type\":\"link\",\"title\":\"scope \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
