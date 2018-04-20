@@ -89,7 +89,7 @@ require で install した package を読み込んで使用します。
 {% code-tabs-item title="index.js" %}
 ```javascript
 const yourModule = require("your-package-name");
-youerModule("cant kkk");
+yourModule("cant kkk");
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
