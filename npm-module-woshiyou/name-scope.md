@@ -34,7 +34,7 @@ npm package を公開する際には package.json の name が「パッケージ
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-name-scope を使用したパッケージは
+name-scope を使用したパッケージは、そのままでは public に公開されませんので、以下のようにオプションをつけて実行する必要があります。
 
 ```bash
 npm publish --access public
