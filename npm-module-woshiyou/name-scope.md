@@ -1,3 +1,7 @@
+---
+description: npm package の名前をつける際に name-scope の仕組みを使用することで、他パッケージと名前がバッティングすることを防げます。
+---
+
 # name-scope
 
 {% embed data="{\"url\":\"https://docs.npmjs.com/misc/scope\",\"type\":\"link\",\"title\":\"scope \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
@@ -29,4 +33,10 @@ npm package を公開する際には package.json の name が「パッケージ
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+name-scope を使用したパッケージは
+
+```bash
+npm publish --access public
+```
 
