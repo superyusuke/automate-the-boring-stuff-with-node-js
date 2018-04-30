@@ -52,3 +52,7 @@ npx cli
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+```bash
+npm cli
+```
+
