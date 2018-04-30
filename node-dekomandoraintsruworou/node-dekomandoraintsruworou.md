@@ -16,3 +16,13 @@ package.json に　"bin" :  { "command-name" : "to-path" } を追加すること
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% code-tabs %}
+{% code-tabs-item title="index.js" %}
+```javascript
+#! /usr/bin/env node
+console.log("cli ok!!");
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
