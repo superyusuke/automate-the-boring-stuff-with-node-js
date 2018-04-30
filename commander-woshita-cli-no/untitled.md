@@ -8,6 +8,8 @@ npm i commander # -D ではだめ
 
 かならず dependencies に追加します。 -D で devDependencies に追加してはいけません。そうした場合、このパッケージに必要なパッケージが、この npm を使っているユーザー側でインストールされません。
 
+### ソースコード
+
 {% code-tabs %}
 {% code-tabs-item title="index.js" %}
 ```javascript
@@ -57,7 +59,20 @@ if (program.target) {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+```bash
+cli --path
+# <path> と必須な arg がないためにエラーになる
 
+cli --path test
+# path があるのでコンソールに表示される
+
+cli --target
+# 追加の arg は必須ではないので OK
+# true が表示される
+
+cli --target test
+# 追加の arg があるので、test と表示される
+```
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
 
