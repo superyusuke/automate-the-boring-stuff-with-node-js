@@ -8,9 +8,11 @@ npm i commander # -D ではだめ
 
 npm link 開発中のディレクトリで実行
 
-npm link パッケージ名 でリンクをそこのフォルダにもはる
+シムリンクをグローバルに追加できるので cli として実行できる
 
-npm cli で実行できる
+npm unlink でリンクを消す
+
+
 
 {% embed data="{\"url\":\"https://docs.npmjs.com/cli/link\",\"type\":\"link\",\"title\":\"link \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
