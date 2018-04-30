@@ -33,7 +33,9 @@ program
     files.forEach(file => console.log(file));
   });
   
-  // command の場合
+  // command の場合、最後の引数は [value...]
+  // という形で指定すると、複数の値を取ることができる
+  // 配列として渡される
 
 // 基本的に help は自動で作成されるが
 // 追加したい場合
@@ -76,7 +78,9 @@ cli --target
 cli --target test
 # 追加の arg があるので、test と表示される
 
-cli write 
+cli write name1 name2 name3 name4
+# 複数の引数を渡すことができる
+# 配列として渡される
 ```
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
