@@ -49,24 +49,15 @@ if (program.path) {
 }
 
 if (program.target) {
-  // target に arg をさらに渡していればの値
+  // target に arg をさらに渡していればの値が、
+  // なければ true がかえってくる
   console.log(program.target);
 }
-
-// console.log(
-//   chalk.red(
-//     figlet.textSync("My First CLI", {
-//       horizontalLayout: "full"
-//     })
-//   )
-// );
-//
-// console.log(chalk.blue("Hi this is Blue Message"));
-
-
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
 
