@@ -1,20 +1,12 @@
 # Untitled
 
+### commander のインストール
+
 ```bash
 npm i commander # -D ではだめ
 ```
 
-かならず dependencies に追加すること -D で devDependencies に追加ではだめ。その場合、パッケージに必要なパッケージがユーザー側でインストールされない。
-
-npm link 開発中のディレクトリで実行
-
-シムリンクをグローバルに追加できるので cli として実行できる
-
-npm unlink でリンクを消す
-
-
-
-{% embed data="{\"url\":\"https://docs.npmjs.com/cli/link\",\"type\":\"link\",\"title\":\"link \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
+かならず dependencies に追加します。 -D で devDependencies に追加してはいけません。そうした場合、このパッケージに必要なパッケージが、この npm を使っているユーザー側でインストールされません。
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
 
