@@ -16,3 +16,18 @@ npm cli で実行できる
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
 
+```javascript
+program
+  .version("1.0.0")
+  .option("-p --path <path>", "description for path")
+  .option("-o --option [option]", "description for option");
+
+program.parse(process.argv);
+
+console.log(program.path, program.option);
+// propgram.option が無いときにエラーになる。どうすればいいか。
+// また [name] は結局使わない
+```
+
+
+
