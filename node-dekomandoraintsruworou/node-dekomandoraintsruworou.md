@@ -1,6 +1,6 @@
 # node でコマンドラインツールを作ろう
 
-package.json に　"bin" :  { "command-name" : "to-path" } を追加することでシェルコマンドとして実行したときに、どのファイルを実行するかを指定します。ここでは "cli" という名前で実行すると、index.js が実行されるように指定しました。
+  sdpackage.json に　"bin" :  { "command-name" : "to-path" } を追加することでシェルコマンドとして実行したときに、どのファイルを実行するかを指定します。ここでは "cli" という名前で実行すると、index.js が実行されるように指定しました。
 
 {% code-tabs %}
 {% code-tabs-item title="package.json" %}
