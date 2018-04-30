@@ -36,11 +36,15 @@ npm publish # 変更を公開
 npm update @superyusuke/node-learn # 更新を取り込む
 ```
 
-#### Local にインストールしたパッケージ使う方法
+#### Local にインストールしたパッケージ使う方法2つ
+
+#### npx を使う
 
 ```bash
 npx cli
 ```
+
+#### npm script に記述して使う
 
 {% code-tabs %}
 {% code-tabs-item title="package.json" %}
@@ -55,6 +59,6 @@ npx cli
 {% endcode-tabs %}
 
 ```bash
-npm cli
+npm run cli
 ```
 
