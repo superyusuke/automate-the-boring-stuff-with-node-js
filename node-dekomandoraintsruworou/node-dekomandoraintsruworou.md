@@ -36,6 +36,8 @@ npm publish # 変更を公開
 npm update @superyusuke/node-learn # 更新を取り込む
 ```
 
+#### Local にインストールしたパッケージ使う方法
+
 ```bash
 npx cli
 ```
