@@ -32,6 +32,8 @@ program
   .action(files => {
     files.forEach(file => console.log(file));
   });
+  
+  // command の場合
 
 // 基本的に help は自動で作成されるが
 // 追加したい場合
@@ -58,7 +60,7 @@ if (program.target) {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### コマンドラインで実行す
+### コマンドラインで実行する
 
 ```bash
 cli --path
@@ -73,6 +75,8 @@ cli --target
 
 cli --target test
 # 追加の arg があるので、test と表示される
+
+cli write 
 ```
 
 [https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
