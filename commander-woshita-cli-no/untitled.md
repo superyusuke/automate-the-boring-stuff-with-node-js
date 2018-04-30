@@ -1,10 +1,12 @@
 ---
-description: 'commander を使っていきます。https://www.npmjs.com/package/commander'
+description: commander を使っていきます。
 ---
 
 # commander の基礎
 
 ### commander のインストール
+
+[https://www.npmjs.com/package/commander](https://www.npmjs.com/package/commander)
 
 ```bash
 npm i commander # -D ではだめ
@@ -86,8 +88,6 @@ cli write name1 name2 name3 name4
 # 複数の引数を渡すことができる
 # 配列として渡される
 ```
-
-[https://arata.hatenadiary.com/entry/2016/01/17/010830](https://arata.hatenadiary.com/entry/2016/01/17/010830)
 
 
 
