@@ -33,18 +33,23 @@ program
   });
 
 // 基本的に help は自動で作成されるが
+// 追加したい場合
 program.on("--help", () => {
   console.log("");
   console.log("  my fist CLI:");
 });
 
+// これで shell で実行する際に与えた引数をパースする
 program.parse(process.argv);
 
+// --path が指定されていた場合
 if (program.path) {
+  // option の arg はこれで取れる
   console.log(program.path);
 }
 
 if (program.target) {
+  // target に arg をさらに渡していればの値
   console.log(program.target);
 }
 
