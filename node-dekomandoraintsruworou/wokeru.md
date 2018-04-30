@@ -18,5 +18,9 @@ console.log("arg", args[0]); // args は配列なので、その最初の値を�
 npx cli test-arg
 ```
 
+or
 
+```bash
+cli test-arg # npm link していれば global にコマンドが存在するように実行できる
+```
 
