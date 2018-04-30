@@ -25,3 +25,12 @@ console.log("cli ok!!");
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+```bash
+npm version minor # マイナーチェンジを行なったので
+npm publish # 変更を公開
+```
+
+```bash
+npm update @superyusuke/node-learn # 更新を取り込む
+```
+
