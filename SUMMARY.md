@@ -6,4 +6,5 @@
   * [name-scope](npm-module-woshiyou/name-scope.md)
 * node でコマンドラインツールを作ろう
   * [node でコマンドラインツールを作ろう](node-dekomandoraintsruworou/node-dekomandoraintsruworou.md)
+  * [引数を受け取る](node-dekomandoraintsruworou/wokeru.md)
 
