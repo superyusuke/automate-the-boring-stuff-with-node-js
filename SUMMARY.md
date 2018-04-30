@@ -10,4 +10,5 @@
 * commander を使用した CLI の作成
   * [commander の基礎](commander-woshita-cli-no/untitled.md)
   * [装飾する](commander-woshita-cli-no/untitled-1.md)
+  * [各種 path を特定する module](commander-woshita-cli-no/path-wosuru-module.md)
 
