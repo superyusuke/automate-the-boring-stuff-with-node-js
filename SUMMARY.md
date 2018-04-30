@@ -8,6 +8,6 @@
   * [node でコマンドラインツールを作ろう](node-dekomandoraintsruworou/node-dekomandoraintsruworou.md)
   * [引数を受け取る](node-dekomandoraintsruworou/wokeru.md)
 * commander を使用した CLI の作成
-  * [Untitled](commander-woshita-cli-no/untitled.md)
+  * [commander の基礎](commander-woshita-cli-no/untitled.md)
   * [装飾する](commander-woshita-cli-no/untitled-1.md)
 

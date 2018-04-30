@@ -1,4 +1,8 @@
-# Untitled
+---
+description: 'commander を使っていきます。https://www.npmjs.com/package/commander'
+---
+
+# commander の基礎
 
 ### commander のインストール
 
