@@ -68,5 +68,5 @@ npm run cli
 
 {% embed data="{\"url\":\"https://docs.npmjs.com/cli/link\",\"type\":\"link\",\"title\":\"link \| npm Documentation\",\"description\":\"The place where all things npm are documented\",\"icon\":{\"type\":\"icon\",\"url\":\"https://docs.npmjs.com/images/favicon.ico\",\"aspectRatio\":0}}" %}
 
-package に変更があるたびに公開してupdate して…という手順を踏むのは面倒です
+package に変更があるたびに公開してupdate して…という手順を踏むのは面倒です。そこで npm link を活用します
 
